@@ -15,8 +15,8 @@ qu'on y fait, comment on est évalué, et comment travailler.
 
 - concevoir une API REST avec FastAPI : routes, validation Pydantic, codes HTTP, documentation auto ;
 - modéliser un schéma relationnel PostgreSQL correct et écrire le SQL correspondant ;
-- structurer une application en couches avec SQLAlchemy et des migrations Alembic ;
-- implémenter une authentification JWT et une autorisation par propriété de ressource ;
+- structurer une application en couches avec SQLAlchemy et des migrations versionnées ;
+- implémenter une authentification JWT et des autorisations ;
 - écrire des tests pytest couvrant les cas nominaux **et** les cas d'erreur ;
 - conteneuriser l'application avec Docker Compose et vérifier lint, tests et build avant chaque
   PR.
@@ -49,9 +49,8 @@ logiciel, terminologie, Dockerfile, et un TP jusqu'à Docker Compose. Elle ne co
 | 5 | [Authentification et autorisation](seances/seance-5-authentification) | 4h | [cours](seances/seance-5-authentification/cours) | [tp](seances/seance-5-authentification/tp) |
 | 6 | [Fondations agentic](seances/seance-6-fondations-agentic) | 5h | [cours](seances/seance-6-fondations-agentic/cours) | [tp](seances/seance-6-fondations-agentic/tp) |
 | 7 | [Le flow complet d'une feature](seances/seance-7-dev-agentic) | 4h | [cours](seances/seance-7-dev-agentic/cours) | [tp](seances/seance-7-dev-agentic/tp) |
-| — | Soutenance | 1h | — | — |
 
-**Total : 30h.** Chaque séance = 2h de cours + 2h de TP (5h pour la séance 6, plus dense).
+**Total : 29h.** Chaque séance = 2h de cours + 2h de TP (5h pour la séance 6, plus dense).
 
 Le TP n'est pas un exercice d'application : c'est là que vous construisez votre projet. À la fin
 de la séance 7, l'essentiel de votre application existe.
