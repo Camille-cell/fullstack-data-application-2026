@@ -1,6 +1,6 @@
 # Fullstack data application — API, données et pilotage d'agent
 
-Bienvenue dans ce module de dernière année (E5) — 30h de cours et de TD.
+Bienvenue dans ce module de dernière année (E5) — cours et TD.
 
 Vous allez construire une application fullstack (backend **FastAPI**, frontend Python séparé,
 **PostgreSQL**, **Docker**) et apprendre à la construire **avec un agent de code** — **GitHub
@@ -34,23 +34,23 @@ qu'on y fait, comment on est évalué, et comment travailler.
 
 Si vous n'avez jamais utilisé Docker, faites en autonomie la
 [séance 0 — Docker : histoire et fondamentaux](seances/seance-0-docker) : histoire du déploiement
-logiciel, terminologie, Dockerfile, et un TP jusqu'à Docker Compose. Elle ne compte pas dans les
-30h du module.
+logiciel, terminologie, Dockerfile, et un TP jusqu'à Docker Compose. Elle ne compte pas dans le
+volume du module.
 
 ## Organisation
 
-| # | Séance | Durée | Cours | TP |
-|---|--------|-------|-------|----|
-| 0 | [Docker : histoire et fondamentaux](seances/seance-0-docker) *(optionnelle, en autonomie)* | — | [cours](seances/seance-0-docker/cours) | [tp](seances/seance-0-docker/tp) |
-| 1 | [Les API et FastAPI](seances/seance-1-api) | 4h | [cours](seances/seance-1-api/cours) | [tp](seances/seance-1-api/tp) |
-| 2 | [Tester une API](seances/seance-2-tests) | 4h | [cours](seances/seance-2-tests/cours) | [tp](seances/seance-2-tests/tp) |
-| 3 | [PostgreSQL et le modèle relationnel](seances/seance-3-database) | 4h | [cours](seances/seance-3-database/cours) | [tp](seances/seance-3-database/tp) |
-| 4 | [L'application web en couches](seances/seance-4-webapp) | 4h | [cours](seances/seance-4-webapp/cours) | [tp](seances/seance-4-webapp/tp) |
-| 5 | [Authentification et autorisation](seances/seance-5-authentification) | 4h | [cours](seances/seance-5-authentification/cours) | [tp](seances/seance-5-authentification/tp) |
-| 6 | [Fondations agentic](seances/seance-6-fondations-agentic) | 5h | [cours](seances/seance-6-fondations-agentic/cours) | [tp](seances/seance-6-fondations-agentic/tp) |
-| 7 | [Le flow complet d'une feature](seances/seance-7-dev-agentic) | 4h | [cours](seances/seance-7-dev-agentic/cours) | [tp](seances/seance-7-dev-agentic/tp) |
+| # | Séance | Cours | TP |
+|---|--------|-------|----|
+| 0 | [Docker : histoire et fondamentaux](seances/seance-0-docker) *(optionnelle, en autonomie)* | [cours](seances/seance-0-docker/cours) | [tp](seances/seance-0-docker/tp) |
+| 1 | [Les API et FastAPI](seances/seance-1-api) | [cours](seances/seance-1-api/cours) | [tp](seances/seance-1-api/tp) |
+| 2 | [Tester une API](seances/seance-2-tests) | [cours](seances/seance-2-tests/cours) | [tp](seances/seance-2-tests/tp) |
+| 3 | [PostgreSQL et le modèle relationnel](seances/seance-3-database) | [cours](seances/seance-3-database/cours) | [tp](seances/seance-3-database/tp) |
+| 4 | [L'application web en couches](seances/seance-4-webapp) | [cours](seances/seance-4-webapp/cours) | [tp](seances/seance-4-webapp/tp) |
+| 5 | [Authentification et autorisation](seances/seance-5-authentification) | [cours](seances/seance-5-authentification/cours) | [tp](seances/seance-5-authentification/tp) |
+| 6 | [Fondations agentic](seances/seance-6-fondations-agentic) | [cours](seances/seance-6-fondations-agentic/cours) | [tp](seances/seance-6-fondations-agentic/tp) |
+| 7 | [Le flow complet d'une feature](seances/seance-7-dev-agentic) | [cours](seances/seance-7-dev-agentic/cours) | [tp](seances/seance-7-dev-agentic/tp) |
 
-**Total : 29h.** Chaque séance = 2h de cours + 2h de TP (5h pour la séance 6, plus dense).
+Chaque séance se partage entre cours et TP — la séance 6 est plus dense.
 
 Le TP n'est pas un exercice d'application : c'est là que vous construisez votre projet. À la fin
 de la séance 7, l'essentiel de votre application existe.

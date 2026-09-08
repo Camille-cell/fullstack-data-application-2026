@@ -114,16 +114,16 @@ vous faire travailler sur des technologies que vous retrouverez en entreprise.
 
 ## 5. Le déroulé
 
-| # | Séance                                                                     | Durée | Ce que vous en repartez avec                                                |
-| - | --------------------------------------------------------------------------- | ------ | --------------------------------------------------------------------------- |
-| 0 | **Docker : histoire et fondamentaux** *(optionnelle, en autonomie)* | —     | Images, conteneurs, Dockerfile, Compose                                     |
-| 1 | **Les API et FastAPI**                                                | 4h     | Une API REST avec validation, codes HTTP, documentation auto                |
-| 2 | **Tester une API**                                                    | 4h     | pytest, contrats HTTP, cas nominaux et cas d'erreur, couverture             |
-| 3 | **PostgreSQL et le modèle relationnel**                              | 4h     | Un schéma correct, du SQL, des index, une base dans Compose                |
-| 4 | **L'application web en couches**                                      | 4h     | SQLAlchemy, architecture en couches, Compose à 3 services                  |
-| 5 | **Authentification et autorisation**                                  | 4h     | JWT, hachage de mots de passe, routes protégées, ownership                |
-| 6 | **Fondations agentic**                                                | 5h     | Ce qu'est un agent, comment le piloter, instructions projet, mode Plan, MCP |
-| 7 | **Le flow complet d'une feature**                                     | 4h     | Issue → plan → implémentation → PR → review → merge                   |
+| # | Séance                                                                     | Ce que vous en repartez avec                                                |
+| - | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 0 | **Docker : histoire et fondamentaux** *(optionnelle, en autonomie)* | Images, conteneurs, Dockerfile, Compose                                     |
+| 1 | **Les API et FastAPI**                                                | Une API REST avec validation, codes HTTP, documentation auto                |
+| 2 | **Tester une API**                                                    | pytest, contrats HTTP, cas nominaux et cas d'erreur, couverture             |
+| 3 | **PostgreSQL et le modèle relationnel**                              | Un schéma correct, du SQL, des index, une base dans Compose                |
+| 4 | **L'application web en couches**                                      | SQLAlchemy, architecture en couches, Compose à 3 services                  |
+| 5 | **Authentification et autorisation**                                  | JWT, hachage de mots de passe, routes protégées, ownership                |
+| 6 | **Fondations agentic**                                                | Ce qu'est un agent, comment le piloter, instructions projet, mode Plan, MCP |
+| 7 | **Le flow complet d'une feature**                                     | Issue → plan → implémentation → PR → review → merge                   |
 
 Chaque séance est construite pareil : **Cours + TP**.
 
