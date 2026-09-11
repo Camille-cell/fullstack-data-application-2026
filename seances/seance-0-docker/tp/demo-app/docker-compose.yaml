@@ -1,0 +1,16 @@
+services:
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    volumes: 
+      - mon_volume:/data
+
+  front:
+    build: ./front
+    ports:
+      - "8080:8080"
+    environment:
+      API_URL: http://api:8000
+volumes:
+  mon_volume:
